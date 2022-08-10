@@ -1,4 +1,4 @@
-﻿//Arrays
+﻿//проект Arrays из ветки FunctionsTemplates разделяем на файлы .h и .cpp
 #include"FillRand.h"
 #include"Print.h"
 #include"Print.cpp" //Если ф-я шаблонная, то ее реализацию обязательно нужно подключать на место вызова

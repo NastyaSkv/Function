@@ -1,7 +1,7 @@
 ﻿//Arrays
 #include"FillRand.h"
 #include"Print.h"
-#include"Print.cpp" //Если ф-я шаблонная, то ее реализацию обязательно нужно подклюсать на место вызова
+#include"Print.cpp" //Если ф-я шаблонная, то ее реализацию обязательно нужно подключать на место вызова
 #include"Sort.h"
 #include"Sort.cpp"
 #include"Statistics.h"

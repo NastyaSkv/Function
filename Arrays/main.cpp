@@ -1,4 +1,4 @@
-﻿//Arrays
+﻿//проект Arrays из ветки master разделяем на файлы .h и .cpp
 #include"stdafx.h"
 #include"constants.h"
 #include"FillRand.h"

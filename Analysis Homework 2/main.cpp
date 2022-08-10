@@ -1,4 +1,4 @@
-//разбираем дом.работу 2 на основе кода из Arrays
+п»ї//СЂР°Р·Р±РёСЂР°РµРј РґРѕРј.СЂР°Р±РѕС‚Сѓ 2 РЅР° РѕСЃРЅРѕРІРµ РєРѕРґР° РёР· Arrays
 #include<iostream>
 using namespace std;
 
@@ -10,7 +10,7 @@ const int COLS = 4;
 void FillRand(int arr[], const int n);
 void FillRand(double arr[], const int n);
 //void FillRand(int arr[ROWS][COLS], const int ROWS, const int COLS);
-	//пока не запустится, тк мы не сделали реализацию ->это дз:)
+	//РїРѕРєР° РЅРµ Р·Р°РїСѓСЃС‚РёС‚СЃСЏ, С‚Рє РјС‹ РЅРµ СЃРґРµР»Р°Р»Рё СЂРµР°Р»РёР·Р°С†РёСЋ ->СЌС‚Рѕ РґР·:)
 
 void Print(int arr[], const int n);
 void Print(double arr[], const int n);
@@ -37,14 +37,14 @@ void main()
 	Print(arr, n);
 	Sort(arr, n);
 	Print(arr, n);
-	cout << "Сумма элементов массива: " << Sum(arr, n) << endl;
-	cout << "Среднее арифметическое элементов массива: " << Avg(arr, n) << endl;
+	cout << "РЎСѓРјРјР° СЌР»РµРјРµРЅС‚РѕРІ РјР°СЃСЃРёРІР°: " << Sum(arr, n) << endl;
+	cout << "РЎСЂРµРґРЅРµРµ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРµ СЌР»РµРјРµРЅС‚РѕРІ РјР°СЃСЃРёРІР°: " << Avg(arr, n) << endl;
 
 	FillRand(brr, SIZE);
 	Print(brr, SIZE);
 	Sort(brr, SIZE);
 	Print(brr, SIZE);
-	cout << "Среднее арифметическое элементов массива: " << Avg(brr, SIZE) << endl;
+	cout << "РЎСЂРµРґРЅРµРµ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРµ СЌР»РµРјРµРЅС‚РѕРІ РјР°СЃСЃРёРІР°: " << Avg(brr, SIZE) << endl;
 
 
 	//int i_arr_2[ROWS][COLS];
@@ -53,29 +53,29 @@ void main()
 
 }
 
-void FillRand(int arr[], const int n)   //заполнение массива случайными числами
+void FillRand(int arr[], const int n)   //Р·Р°РїРѕР»РЅРµРЅРёРµ РјР°СЃСЃРёРІР° СЃР»СѓС‡Р°Р№РЅС‹РјРё С‡РёСЃР»Р°РјРё
 {
 	for (int i = 0; i < n; i++)
 	{
 		arr[i] = rand() % 100;
 	}
-}void FillRand(double arr[], const int n)   //заполнение массива случайными числами
+}void FillRand(double arr[], const int n)   //Р·Р°РїРѕР»РЅРµРЅРёРµ РјР°СЃСЃРёРІР° СЃР»СѓС‡Р°Р№РЅС‹РјРё С‡РёСЃР»Р°РјРё
 {
 	for (int i = 0; i < n; i++)
 	{
 		arr[i] = rand() % 10000;
-		arr[i] /= 100; //чтобы добиться вывода с запятой, чтобы увидеть double
+		arr[i] /= 100; //С‡С‚РѕР±С‹ РґРѕР±РёС‚СЊСЃСЏ РІС‹РІРѕРґР° СЃ Р·Р°РїСЏС‚РѕР№, С‡С‚РѕР±С‹ СѓРІРёРґРµС‚СЊ double
 	}
 }
 
-void Print(int arr[], const int n)      //вывод массива
+void Print(int arr[], const int n)      //РІС‹РІРѕРґ РјР°СЃСЃРёРІР°
 {
 	for (int i = 0; i < n; i++)
 	{
 		cout << arr[i] << tab;
 	}cout << endl;
 }
-void Print(double arr[], const int n)      //вывод массива
+void Print(double arr[], const int n)      //РІС‹РІРѕРґ РјР°СЃСЃРёРІР°
 {
 	for (int i = 0; i < n; i++)
 	{
@@ -84,7 +84,7 @@ void Print(double arr[], const int n)      //вывод массива
 }
 
 
-void Sort(int arr[], const int n)       //сортировка по возрастанию
+void Sort(int arr[], const int n)       //СЃРѕСЂС‚РёСЂРѕРІРєР° РїРѕ РІРѕР·СЂР°СЃС‚Р°РЅРёСЋ
 {
 	for (int i = 0; i < n; i++)
 	{
@@ -99,7 +99,7 @@ void Sort(int arr[], const int n)       //сортировка по возрастанию
 		}
 	}
 }
-void Sort(double arr[], const int n)       //сортировка по возрастанию
+void Sort(double arr[], const int n)       //СЃРѕСЂС‚РёСЂРѕРІРєР° РїРѕ РІРѕР·СЂР°СЃС‚Р°РЅРёСЋ
 {
 	for (int i = 0; i < n; i++)
 	{

@@ -8,6 +8,7 @@ int Sub(int a, int b); //здесь мы говорим, что такая фу�
 int Mul(int a, int b); //реализация функция (определение функции - Function definition)
 double Div(int a, int b);
 int Factorial(int n);
+double Power (double a, int n);
 
 void main()
 {
@@ -60,4 +61,10 @@ int Factorial(int n)
 		f *= i;
 	}
 	return(f);
+}
+
+double Power(double a, int n)
+{
+	
+	return 0;
 }
